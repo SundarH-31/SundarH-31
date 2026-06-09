@@ -1,16 +1,35 @@
-## Hi there 👋
+class SundarH:
+    def __init__(self):
+        self.name           = "Sundar H"
+        self.location       = "Tiruvallur, India 🇮🇳"
+        self.degree         = "B.E. Mechanical Engineering (2024–2028)"
+        self.college        = "Rajalakshmi Engineering College"
+        self.cgpa           = 7.02
 
-<!--
-**SundarH-31/SundarH-31** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        self.stack = [
+            "Python", "Machine Learning",
+            "MATLAB", "AutoCAD"
+        ]
 
-Here are some ideas to get you started:
+        self.currently_learning = [
+            "Deep Learning",
+            "IoT & Embedded Systems",
+            "Advanced ML Algorithms",
+            "Cloud Integration for ML"
+        ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        self.fun_fact = (
+            "I'm a Football Goalkeeper — "
+            "reflexes on the field, "
+            "precision in the codebase."
+        )
+
+    def motto(self):
+        return (
+            "Engineer the physical. "
+            "Automate the predictable. "
+            "Innovate the rest."
+        )
+
+me = SundarH()
+print(me.motto())
